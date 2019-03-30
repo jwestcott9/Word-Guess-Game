@@ -1,0 +1,40 @@
+.card-text{
+    font-family: 'Germania One', cursive;
+}
+
+.row{
+    padding-top: 20px;
+    opacity: .8;
+}
+
+body{
+
+    background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2013/06/11/101178/fa540e6b2adc4ba6666cfc2497ce8516-700.jpg);
+}
+
+.jumbotron{
+    opacity: .8;
+}
+
+#dashes{
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 22pt;
+    width: 18rem; font-family: 'Germania One', cursive;
+}
+
+.rockbtn{
+    height: 100px;
+    width: 200px;
+    background: maroon;
+    opacity: 10;
+    font-size: 25pt;
+}
+.bioPic{
+    height: 250px;
+    width:250px;
+}
+
+.scoreboard{
+    font-size: 22pt;
+}

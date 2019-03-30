@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>HANGMAN</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets /style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
+</head>
+
+<body>
+  <!-- Ye ole title -->
+  <div class="jumbotron" style="font-family: 'Germania One', cursive;">
+    <h1>Rockstar Hangman </h1>
+    <h3>SELECT ROCK TO START!!!!</h3>
+    <h4> Use your keyboard to make guesses</h4>
+
+  </div>
+
+  
+  <div class="row">
+    <div class="col-md-1"></div>
+
+
+    <!-- le hangman image section -->
+    <div class="card col-md-5 " style="width: 18rem; font-family: 'Germania One', cursive;">
+      <img class="card-img-top" id="hangman"
+        src="assets /images/hangman-start.png"
+        alt="Card image cap">
+      <!-- incase you are feeling like working too hard make the image react to wrong guesses -->
+      <!-- <img class="guess1" src="#" alt="guess1">
+      <img class="guess2" src="#" alt="guess2">
+      <img class="guess3" src="#" alt="guess3">
+      <img class="guess4" src="#" alt="guess4">
+      <img class="guess5" src="#" alt="guess5">
+      <img class="guess6" src="#" alt="guess6"> -->
+      <div id="dashes"></div>
+      <div class="card-body">
+        <h5 class="card-title">Would you like a hint?</h5>
+        <p class="card-text" id= "hint" style="font-family: 'Germania One', cursive;">click button for hint</p>
+        <a type="button" id= "hint-me" class="btn btn-primary">Hint button</a>
+      </div>
+    </div>
+    <div class="col-md-1"></div>
+
+    <!-- ze scoreboard -->
+    <div class="card col-md-4">
+      <div class="card-body scoreboard" style="font-family: 'Germania One', cursive;">
+          <button type="button" id="click-me" class=" click-me btn btn-secondary rockbtn">ROCK!!!!</button>
+          <br><br><br>
+
+          <p id="wins">
+          Wins:
+        </p>
+        <p id="losses">
+          Losses:
+        </p>
+        <p id="tried">
+          Attempted:
+        </p>
+        <p id="lives">
+          Lives: 6
+        </p>
+    
+      </div>
+    </div>
+    <div class="col-md-1"></div>
+    
+  </div>
+
+<!-- the bottom thinng -->
+  <div class="row" >
+    <div class="col-md-1"></div>
+    <div class="card col-md-10 " style="width: 18rem; font-family: 'Germania One', cursive;">
+      <img class="card-img-top bioPic" src="http://ase.tufts.edu/breakthrough/breakthrough_images/mystery.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title "></h5>
+        <p class="card-text" style="font-family: 'Germania One', cursive;">Some quick example text to build on the card
+          title and make up the bulk of the card's content.</p>
+        
+      </div>
+    </div>
+
+    <div class="col-md-1"></div>
+
+
+
+
+  </div>
+
+</body> <script type="text/javascript" src="assets /game.js"></script>
+</html>
